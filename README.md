@@ -35,9 +35,6 @@ I developed an **end-to-end machine learning pipeline** that detects animal soun
   - Converted each segment into a **spectrogram**  
   - Labeled **1,012 samples** as wildlife present (`1`) or background only (`0`)
 
-**Example Spectrogram:**  
-![Spectrogram](graphs/Spectrogram.png)
-
 - **Models Implemented**:
   1. **Convolutional Neural Network (CNN)** for supervised classification
   2. **Autoencoder** trained only on background data for anomaly detection
