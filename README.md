@@ -54,7 +54,6 @@ I developed an **end-to-end machine learning pipeline** that detects animal soun
 
 ## Acknowledgements
 Research conducted via the **American Museum of Natural History Student Research Mentorship Program (SRMP)** in collaboration with:  
-- Dr. Jemima Georges, Peter Ersts, Dr. Mary Blair  
 - Co-authors: Jade Velazquez, Nico Weisberger, Daniel Lopez-Lozano  
 
 ---
