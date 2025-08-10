@@ -22,25 +22,28 @@ I developed an **end-to-end machine learning pipeline** that detects animal soun
 | **Recall**      | **0.86**     | 0.47                  |
 | **F1-Score**    | **0.89**     | 0.49                  |
 
- **Insert Image Here:** Confusion Matrix for Model 1 (shows strong classification performance)  
- **Insert Image Here:** ROC Curve for Model 1 (visualizes high sensitivity & specificity)  
+| Confusion Matrix (Model 1) | ROC Curve (Model 1) |
+|----------------------------|--------------------|
+| ![Confusion Matrix](graphs/Confusion_Matrix.png) | ![ROC Curve](graphs/ROC_curve.png) |
 
 ---
 
-##  Technical Overview & Methodology
+## Technical Overview & Methodology
 - **Data Source**: 6 audio datasets (646 files) from *Au Sable Forks, NY*
 - **Preprocessing**:
   - Split audio into 5-second segments  
   - Converted each segment into a **spectrogram**  
   - Labeled **1,012 samples** as wildlife present (`1`) or background only (`0`)
+
+**Example Spectrogram:**  
+![Spectrogram](graphs/Spectrogram.png)
+
 - **Models Implemented**:
   1. **Convolutional Neural Network (CNN)** for supervised classification
   2. **Autoencoder** trained only on background data for anomaly detection
 - **Evaluation**:
   - Accuracy, Precision, Recall, F1-score  
   - Confusion Matrix & ROC Curve for detailed error analysis
-
-**Insert Image Here:** Example spectrogram with/without wildlife sound  
 
 ---
 
