@@ -24,7 +24,7 @@ I developed an **end-to-end machine learning pipeline** that detects animal soun
 
 | Confusion Matrix (Model 1) | ROC Curve (Model 1) |
 |----------------------------|--------------------|
-| ![Confusion Matrix](graphs/Confusion_Matrix.png) | ![ROC Curve](graphs/ROC_curve.png) |
+| <img src="graphs/Confusion_Matrix.png" alt="Confusion Matrix" width="320"> | <img src="graphs/ROC_curve.png" alt="ROC Curve" width="400"> |
 
 ---
 
