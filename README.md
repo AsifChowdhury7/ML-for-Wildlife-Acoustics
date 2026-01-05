@@ -6,7 +6,7 @@
 ## Summary
 Conservation scientists record **thousands of hours of wildlife audio** to monitor species affected by climate change and habitat loss — but **manual review is slow, costly, and prone to error**.  
 
-I developed an **end-to-end machine learning pipeline** that detects animal sounds from raw audio using spectrogram-based classification.  
+My team and I developed an **end-to-end machine learning pipeline** that detects animal sounds from raw audio using spectrogram-based classification.  
 - **Model 1 (CNN)**: Achieved **89% accuracy**, **92% precision**, and **0.89 F1-score**  
 - **Model 2 (Autoencoder)**: Proof-of-concept for anomaly detection without labeled wildlife data  
 - **Impact**: Reduces manual review time by **>80%**, enabling scalable biodiversity monitoring for conservation teams  
